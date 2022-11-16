@@ -1,84 +1,46 @@
-.top_container {
-  background-color: #E4F9F5;
-  position: relative;
-}
-
-
-.my_pfp {
-  border-radius: 100%;
-}
-
-
-.my_sports_pic {
-  border-radius: 100%;
-}
-
-
-
 body {
-  color: #40514E;
-  margin: 0;
-  text-align: center;
+   color: #40514E;
+   margin: 0;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+
 }
 
-.contact_color_deatils {
-  background-color: #F9CEEE;
-}
-
-
-.NAME {
-  color: black;
-}
-.hello {
-  color: black;
-}
-
-.bottom_cloud {
-  position: absolute;
-  left: 250px;
-}
-
-.top_cloud {
-  position: absolute;
-  top: 100px;
-  right: 280px;
-}
 
 h1 {
   color: #66BFBF;
-  font-size: 4rem;
-  padding-top: 200px;
   font-family: 'Sacramento', cursive;
-  margin-top: 0;
-  width: 20%;
-  margin: 0 auto;
-}
-
-.pro {
-  text-decoration: underline;
 }
 
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  font-weight: normal;
+}
+
+hr {
+  border: dotted #D6E4E5 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+.baby:hover {
+  color: #F49D1A;
 }
 
 .footer_link {
-  font-family: 'Montserrat', sans-serif;
-  color: orange;
-  width: 25%
+  line-height: 3;
 }
-
-
-
-
-
 
 .a_programmer {
   font-size: 1.50rem;
@@ -87,152 +49,166 @@ h3 {
   margin: 0 auto;
 }
 
-
-
-p {
-  font-size: 1.4rem;
-}
-
-
-.years_old {
-  color: red;
-  padding-bottom: 80px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 50px auto;
-  text-align: left;
-}
-
-
-
-.table_tennis {
+.my_image {
   border-radius: 100%;
-  height: 200px;
-  position: absolute;
-  top: 2300px;
-}
-
-.hacking {
-  border-radius: 100%;
-  height: 400px;
+  height: 300px;
+  width: 300px;
 
 }
 
-
-/* .skills {
-  background-color: #40DFEF;
-} */
-
-.footer_link_me {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.mommy {
+  padding-bottom: 20px;
 }
 
-.footer_link_me:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+.otherp {
+  line-height: 2;
 }
 
-
-
-hr {
-  border-style: none;
-  border-top-style: dotted ;
-  border-color: grey;
-  border-width: 5px;
-  padding-bottom: 80px;
-  width: 3%;
-}
-
-.good_at {
-  padding-bottom: 70px;
-}
-
-.bottom-container {
-  background-color: #40DFEF
-}
-
-.touch {
-  color: #FF6363;
-}
-
-
-/*
-.top_container {
-  background-color: #E4F9F5;
-  padding: 20;
-  height: 870px;
-}
-
-
-.my_pfp {
-  border-radius: 100%;
-}
-
-
-.my_sports_pic {
-  border-radius: 100%;
-}
-
-.mountain {
-  position: absolute;
-  left: 360px;
-  bottom: 30px;
-}
-
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-
-.bottom_cloud {
-  position: absolute;
-  left: 400px;
-}
-
-.top_cloud {
-  position: absolute;
-  right: 430px;
-  bottom: 680px;
-}
-
-h1 {
-  font-size: 40pt;
-  font-family: 'Sacramento', cursive;
-  margin-top: 0;
-  padding-top: 200px;
-  width: 20%;
-  margin: 0 auto;
+.middle-container {
+  padding: 100px 0;
 }
 
 .pro {
   text-decoration: underline;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+.contact-u {
+  background: #34d991;
+  background-image: -webkit-linear-gradient(top, #34d991, #184aa8);
+  background-image: -moz-linear-gradient(top, #34d991, #184aa8);
+  background-image: -ms-linear-gradient(top, #34d991, #184aa8);
+  background-image: -o-linear-gradient(top, #34d991, #184aa8);
+  background-image: linear-gradient(to bottom, #34d991, #184aa8);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-} */
+.contact-u:hover {
+  background: #000203;
+  background-image: -webkit-linear-gradient(top, #000203, #000000);
+  background-image: -moz-linear-gradient(top, #000203, #000000);
+  background-image: -ms-linear-gradient(top, #000203, #000000);
+  background-image: -o-linear-gradient(top, #000203, #000000);
+  background-image: linear-gradient(to bottom, #000203, #000000);
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding-top: 150px;
+  line-height: 1;
+}
+
+.yes {
+  padding-left: 10px;
+  color: blue;
+}
+
+.yes:hover {
+  color: red;
+}
+.contact {
+  background-color: #D6E4E5;
+}
+.img {
+  border-radius: 100%;
+  width: 15%;
+  height: 200px;
+}
+
+
+.contactme {
+  text-align: center;
+}
+
+.tables {
+  margin: auto;
+}
+
+.mail {
+  padding-right: 50px;
+  padding-left: 250px;
+}
+
+.yesyes {
+  padding: 100px 0 50px 0;
+  width: 50%;
+  margin: auto;
+}
+
+.hrhr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+.name {
+  color: #66BFBF;
+  font-size: 4rem;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.ptag {
+  position: relative;
+  right: 25px;
+  font-weight: normal;
+}
+
+.bottom_cloud {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: 200px;
+  height: 75px;
+}
+
+.sports {
+  border-radius: 100%;
+  height: 200px;
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.hacking {
+  border-radius: 100%;
+  height: 200px;
+  width: 25%;
+  float: right;
+}
+
+.top {
+  padding-bottom: 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px auto;
+}
+
+.top_cloud {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+  width: 200px;
+  height: 75px;
+}
+
+.Mountain {
+  width: 50%;
+}
